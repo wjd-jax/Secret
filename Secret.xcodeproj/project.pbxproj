@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EFE04FB74DD63461E47EE2D /* libPods-Secret.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 630494AEF5054B6DEEF2BC18 /* libPods-Secret.a */; };
+		7546E83921A2567500BADD9C /* XMPayCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7546E83421A2567400BADD9C /* XMPayCodeView.xib */; };
+		7546E83A21A2567500BADD9C /* XMPayCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546E83521A2567400BADD9C /* XMPayCodeView.m */; };
+		7546E83B21A2567500BADD9C /* XMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546E83821A2567400BADD9C /* XMTextField.m */; };
+		7546E83F21A256B400BADD9C /* JDPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546E83E21A256B400BADD9C /* JDPasswordViewController.m */; };
+		7546E84621A287F500BADD9C /* JDPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546E84521A287F500BADD9C /* JDPasswordManager.m */; };
+		7546E84D21A2A90300BADD9C /* JDSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546E84C21A2A90300BADD9C /* JDSettingManager.m */; };
+		F51671471F42E219008F2A72 /* JDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F51671461F42E219008F2A72 /* JDImageManager.m */; };
+		F516E8B81F3D61AC00725CDA /* JDUMShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F516E8B71F3D619C00725CDA /* JDUMShareManager.m */; };
+		F516E8BC1F3D807F00725CDA /* ChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F516E8BB1F3D807F00725CDA /* ChangePwdViewController.m */; };
+		F52395EA1F39AC5F00DBF44F /* JDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52395E91F39AC5F00DBF44F /* JDBaseViewController.m */; };
+		F52395ED1F39AC8100DBF44F /* JDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52395EC1F39AC8100DBF44F /* JDNavigationViewController.m */; };
+		F52395F51F39AD9300DBF44F /* PhotoFilesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52395F41F39AD9300DBF44F /* PhotoFilesListViewController.m */; };
+		F52395F81F39ADA800DBF44F /* VideoFilesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52395F71F39ADA800DBF44F /* VideoFilesListViewController.m */; };
+		F52395FB1F39ADB700DBF44F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52395FA1F39ADB700DBF44F /* SettingViewController.m */; };
+		F549975F1F4199FD003AFAAC /* PhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F549975E1F4199FD003AFAAC /* PhotoListViewController.m */; };
+		F54997631F419AFC003AFAAC /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F54997621F419AFC003AFAAC /* PhotoCollectionViewCell.m */; };
+		F55F21D21F3C3320005A577D /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F21D11F3C3320005A577D /* PhotoTableViewCell.m */; };
+		F55F21D71F3C40CA005A577D /* JDActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F21D51F3C4050005A577D /* JDActionSheetView.m */; };
+		F566DE431F3ABBAB00DBEC9A /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F566DE421F3ABBAB00DBEC9A /* CalculatorViewController.m */; };
+		F56F1FB81F3BF66B009CD3B8 /* JDAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F1FB71F3BF66B009CD3B8 /* JDAlertViewManager.m */; };
+		F56F1FBC1F3BFD53009CD3B8 /* JDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F1FBB1F3BFD53009CD3B8 /* JDFileManager.m */; };
+		F56F1FC01F3BFD93009CD3B8 /* JDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F1FBF1F3BFD93009CD3B8 /* JDUserModel.m */; };
+		F585B1171F46846900FA4173 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F585B1161F46846900FA4173 /* VideoModel.m */; };
+		F58B7F431F443C6100742E4C /* RecommendListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58B7F421F443C6100742E4C /* RecommendListTableViewController.m */; };
+		F59D38FB1F39A64200EA8CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59D38FA1F39A64200EA8CD2 /* main.m */; };
+		F59D38FE1F39A64200EA8CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F59D38FD1F39A64200EA8CD2 /* AppDelegate.m */; };
+		F59D39041F39A64200EA8CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59D39021F39A64200EA8CD2 /* Main.storyboard */; };
+		F59D39061F39A64200EA8CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59D39051F39A64200EA8CD2 /* Assets.xcassets */; };
+		F59D39091F39A64200EA8CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59D39071F39A64200EA8CD2 /* LaunchScreen.storyboard */; };
+		F5AF28951F44172A00B4F517 /* JDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F52396001F39BBA700DBF44F /* JDUtils.m */; };
+		F5AF28961F44172A00B4F517 /* UIView+JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52396021F39BBA700DBF44F /* UIView+JDView.m */; };
+		F5CB03E21F3D492200F01A78 /* JDKeyChainWapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2D7BA1F3C58A6009303D0 /* JDKeyChainWapper.m */; };
+		F5D080AA1F4BE31600915390 /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D080A81F4BE31500915390 /* MoviePlayerViewController.m */; };
+		F5D080AC1F4BF69700915390 /* UIFont+JDRuntimeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F5946A301F3D9559004EF81E /* UIFont+JDRuntimeFont.m */; };
+		F5D0AA421F7A39B500458641 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0AA411F7A39B500458641 /* AboutViewController.m */; };
+		F5D29E511F4131990037FFCF /* PhotoLibraryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D29E501F4131990037FFCF /* PhotoLibraryModel.m */; };
+		F5D7EC801F3AD09400D11EB2 /* CalculateMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D7EC7F1F3AD09400D11EB2 /* CalculateMethod.m */; };
+		F5F0E3661F46B280000F2150 /* VideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F0E3651F46B280000F2150 /* VideoCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630494AEF5054B6DEEF2BC18 /* libPods-Secret.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Secret.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7546E83421A2567400BADD9C /* XMPayCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMPayCodeView.xib; sourceTree = "<group>"; };
+		7546E83521A2567400BADD9C /* XMPayCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPayCodeView.m; sourceTree = "<group>"; };
+		7546E83621A2567400BADD9C /* XMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTextField.h; sourceTree = "<group>"; };
+		7546E83721A2567400BADD9C /* XMPayCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPayCodeView.h; sourceTree = "<group>"; };
+		7546E83821A2567400BADD9C /* XMTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTextField.m; sourceTree = "<group>"; };
+		7546E83D21A256B400BADD9C /* JDPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDPasswordViewController.h; sourceTree = "<group>"; };
+		7546E83E21A256B400BADD9C /* JDPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDPasswordViewController.m; sourceTree = "<group>"; };
+		7546E84421A287F500BADD9C /* JDPasswordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDPasswordManager.h; sourceTree = "<group>"; };
+		7546E84521A287F500BADD9C /* JDPasswordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDPasswordManager.m; sourceTree = "<group>"; };
+		7546E84B21A2A90300BADD9C /* JDSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSettingManager.h; sourceTree = "<group>"; };
+		7546E84C21A2A90300BADD9C /* JDSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSettingManager.m; sourceTree = "<group>"; };
+		767455E17AC4CD6F185791FE /* Pods-Secret.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secret.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Secret/Pods-Secret.debug.xcconfig"; sourceTree = "<group>"; };
+		96255B8F175F6544CE58DF7C /* Pods-Secret.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secret.release.xcconfig"; path = "Pods/Target Support Files/Pods-Secret/Pods-Secret.release.xcconfig"; sourceTree = "<group>"; };
+		F51671451F42E219008F2A72 /* JDImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDImageManager.h; sourceTree = "<group>"; };
+		F51671461F42E219008F2A72 /* JDImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDImageManager.m; sourceTree = "<group>"; };
+		F516E8B61F3D619B00725CDA /* JDUMShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDUMShareManager.h; sourceTree = "<group>"; };
+		F516E8B71F3D619C00725CDA /* JDUMShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDUMShareManager.m; sourceTree = "<group>"; };
+		F516E8BA1F3D807F00725CDA /* ChangePwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePwdViewController.h; sourceTree = "<group>"; };
+		F516E8BB1F3D807F00725CDA /* ChangePwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePwdViewController.m; sourceTree = "<group>"; };
+		F52395E81F39AC5F00DBF44F /* JDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBaseViewController.h; sourceTree = "<group>"; };
+		F52395E91F39AC5F00DBF44F /* JDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBaseViewController.m; sourceTree = "<group>"; };
+		F52395EB1F39AC8100DBF44F /* JDNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDNavigationViewController.h; sourceTree = "<group>"; };
+		F52395EC1F39AC8100DBF44F /* JDNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDNavigationViewController.m; sourceTree = "<group>"; };
+		F52395F31F39AD9300DBF44F /* PhotoFilesListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFilesListViewController.h; sourceTree = "<group>"; };
+		F52395F41F39AD9300DBF44F /* PhotoFilesListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 1; path = PhotoFilesListViewController.m; sourceTree = "<group>"; };
+		F52395F61F39ADA800DBF44F /* VideoFilesListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoFilesListViewController.h; sourceTree = "<group>"; };
+		F52395F71F39ADA800DBF44F /* VideoFilesListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoFilesListViewController.m; sourceTree = "<group>"; };
+		F52395F91F39ADB700DBF44F /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		F52395FA1F39ADB700DBF44F /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		F52395FD1F39BBA700DBF44F /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		F52395FE1F39BBA700DBF44F /* JDHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDHeader.h; sourceTree = "<group>"; };
+		F52395FF1F39BBA700DBF44F /* JDUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDUtils.h; sourceTree = "<group>"; };
+		F52396001F39BBA700DBF44F /* JDUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDUtils.m; sourceTree = "<group>"; };
+		F52396011F39BBA700DBF44F /* UIView+JDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JDView.h"; sourceTree = "<group>"; };
+		F52396021F39BBA700DBF44F /* UIView+JDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDView.m"; sourceTree = "<group>"; };
+		F549975D1F4199FD003AFAAC /* PhotoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoListViewController.h; sourceTree = "<group>"; };
+		F549975E1F4199FD003AFAAC /* PhotoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoListViewController.m; sourceTree = "<group>"; };
+		F54997611F419AFC003AFAAC /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		F54997621F419AFC003AFAAC /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		F55F21D01F3C3320005A577D /* PhotoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
+		F55F21D11F3C3320005A577D /* PhotoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
+		F55F21D41F3C404F005A577D /* JDActionSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDActionSheetView.h; sourceTree = "<group>"; };
+		F55F21D51F3C4050005A577D /* JDActionSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDActionSheetView.m; sourceTree = "<group>"; };
+		F566DE411F3ABBAB00DBEC9A /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		F566DE421F3ABBAB00DBEC9A /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		F56F1FB61F3BF66B009CD3B8 /* JDAlertViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAlertViewManager.h; sourceTree = "<group>"; };
+		F56F1FB71F3BF66B009CD3B8 /* JDAlertViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAlertViewManager.m; sourceTree = "<group>"; };
+		F56F1FBA1F3BFD53009CD3B8 /* JDFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDFileManager.h; sourceTree = "<group>"; };
+		F56F1FBB1F3BFD53009CD3B8 /* JDFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDFileManager.m; sourceTree = "<group>"; };
+		F56F1FBE1F3BFD93009CD3B8 /* JDUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDUserModel.h; sourceTree = "<group>"; };
+		F56F1FBF1F3BFD93009CD3B8 /* JDUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDUserModel.m; sourceTree = "<group>"; };
+		F585B1151F46846900FA4173 /* VideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		F585B1161F46846900FA4173 /* VideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		F58B7F411F443C6100742E4C /* RecommendListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendListTableViewController.h; sourceTree = "<group>"; };
+		F58B7F421F443C6100742E4C /* RecommendListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendListTableViewController.m; sourceTree = "<group>"; };
+		F5946A2F1F3D9559004EF81E /* UIFont+JDRuntimeFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+JDRuntimeFont.h"; sourceTree = "<group>"; };
+		F5946A301F3D9559004EF81E /* UIFont+JDRuntimeFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JDRuntimeFont.m"; sourceTree = "<group>"; };
+		F59D38F61F39A64200EA8CD2 /* Secret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secret.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59D38FA1F39A64200EA8CD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F59D38FC1F39A64200EA8CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F59D38FD1F39A64200EA8CD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F59D39031F39A64200EA8CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59D39051F39A64200EA8CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59D39081F39A64200EA8CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F59D390A1F39A64200EA8CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D080A81F4BE31500915390 /* MoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		F5D080A91F4BE31600915390 /* MoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		F5D0AA401F7A39B500458641 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		F5D0AA411F7A39B500458641 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		F5D29E4F1F4131990037FFCF /* PhotoLibraryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoLibraryModel.h; sourceTree = "<group>"; };
+		F5D29E501F4131990037FFCF /* PhotoLibraryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoLibraryModel.m; sourceTree = "<group>"; };
+		F5D2D7B91F3C58A6009303D0 /* JDKeyChainWapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDKeyChainWapper.h; sourceTree = "<group>"; };
+		F5D2D7BA1F3C58A6009303D0 /* JDKeyChainWapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDKeyChainWapper.m; sourceTree = "<group>"; };
+		F5D7EC7E1F3AD09400D11EB2 /* CalculateMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateMethod.h; sourceTree = "<group>"; };
+		F5D7EC7F1F3AD09400D11EB2 /* CalculateMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateMethod.m; sourceTree = "<group>"; };
+		F5F0E3641F46B280000F2150 /* VideoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCollectionViewCell.h; sourceTree = "<group>"; };
+		F5F0E3651F46B280000F2150 /* VideoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59D38F31F39A64200EA8CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFE04FB74DD63461E47EE2D /* libPods-Secret.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7546E83321A2567400BADD9C /* XMPayCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				7546E83421A2567400BADD9C /* XMPayCodeView.xib */,
+				7546E83521A2567400BADD9C /* XMPayCodeView.m */,
+				7546E83621A2567400BADD9C /* XMTextField.h */,
+				7546E83721A2567400BADD9C /* XMPayCodeView.h */,
+				7546E83821A2567400BADD9C /* XMTextField.m */,
+			);
+			path = XMPayCodeView;
+			sourceTree = "<group>";
+		};
+		7546E83C21A2568400BADD9C /* PasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7546E83D21A256B400BADD9C /* JDPasswordViewController.h */,
+				7546E83E21A256B400BADD9C /* JDPasswordViewController.m */,
+			);
+			path = PasswordViewController;
+			sourceTree = "<group>";
+		};
+		7546E84321A287E200BADD9C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7546E84421A287F500BADD9C /* JDPasswordManager.h */,
+				7546E84521A287F500BADD9C /* JDPasswordManager.m */,
+				7546E84B21A2A90300BADD9C /* JDSettingManager.h */,
+				7546E84C21A2A90300BADD9C /* JDSettingManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		987AAD031D1918F580302147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				630494AEF5054B6DEEF2BC18 /* libPods-Secret.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B91EC73BD9C090DD576FD1B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767455E17AC4CD6F185791FE /* Pods-Secret.debug.xcconfig */,
+				96255B8F175F6544CE58DF7C /* Pods-Secret.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F51671441F42E200008F2A72 /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				F51671451F42E219008F2A72 /* JDImageManager.h */,
+				F51671461F42E219008F2A72 /* JDImageManager.m */,
+			);
+			path = ImageManager;
+			sourceTree = "<group>";
+		};
+		F516E8B51F3D618E00725CDA /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				F516E8B61F3D619B00725CDA /* JDUMShareManager.h */,
+				F516E8B71F3D619C00725CDA /* JDUMShareManager.m */,
+			);
+			path = ShareManager;
+			sourceTree = "<group>";
+		};
+		F516E8B91F3D805C00725CDA /* ChangePwd */ = {
+			isa = PBXGroup;
+			children = (
+				F516E8BA1F3D807F00725CDA /* ChangePwdViewController.h */,
+				F516E8BB1F3D807F00725CDA /* ChangePwdViewController.m */,
+			);
+			path = ChangePwd;
+			sourceTree = "<group>";
+		};
+		F51967FB1F43F05400E02704 /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				7546E83321A2567400BADD9C /* XMPayCodeView */,
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		F52395E51F39AC0F00DBF44F /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				F52395E81F39AC5F00DBF44F /* JDBaseViewController.h */,
+				F52395E91F39AC5F00DBF44F /* JDBaseViewController.m */,
+				F52395EB1F39AC8100DBF44F /* JDNavigationViewController.h */,
+				F52395EC1F39AC8100DBF44F /* JDNavigationViewController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		F52395E71F39AC3B00DBF44F /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F59D38FC1F39A64200EA8CD2 /* AppDelegate.h */,
+				F59D38FD1F39A64200EA8CD2 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		F52395EE1F39AC9A00DBF44F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7546E83C21A2568400BADD9C /* PasswordViewController */,
+				F5D0AA3F1F7A399400458641 /* About */,
+				F5F0E3671F46C00F000F2150 /* AVPlay */,
+				F566DE401F3ABB8400DBEC9A /* Calculator */,
+				F52395F11F39ACEF00DBF44F /* PhotoFilesList */,
+				F52DE70B1F4187F900380139 /* Photolist */,
+				F52395EF1F39ACE500DBF44F /* SetViewController */,
+				F52395F01F39ACE900DBF44F /* VideoFilesList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F52395EF1F39ACE500DBF44F /* SetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F58B7F401F443C3300742E4C /* Recommend */,
+				F516E8B91F3D805C00725CDA /* ChangePwd */,
+				F5D2D7B81F3C5893009303D0 /* PassWordTool */,
+				F52395F91F39ADB700DBF44F /* SettingViewController.h */,
+				F52395FA1F39ADB700DBF44F /* SettingViewController.m */,
+			);
+			path = SetViewController;
+			sourceTree = "<group>";
+		};
+		F52395F01F39ACE900DBF44F /* VideoFilesList */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0E3631F46B26E000F2150 /* Cell */,
+				F585B1141F46844500FA4173 /* VideoModel */,
+				F52395F61F39ADA800DBF44F /* VideoFilesListViewController.h */,
+				F52395F71F39ADA800DBF44F /* VideoFilesListViewController.m */,
+			);
+			path = VideoFilesList;
+			sourceTree = "<group>";
+		};
+		F52395F11F39ACEF00DBF44F /* PhotoFilesList */ = {
+			isa = PBXGroup;
+			children = (
+				F55F21CF1F3C3308005A577D /* View */,
+				F52395F31F39AD9300DBF44F /* PhotoFilesListViewController.h */,
+				F52395F41F39AD9300DBF44F /* PhotoFilesListViewController.m */,
+			);
+			path = PhotoFilesList;
+			sourceTree = "<group>";
+		};
+		F52395F21F39ACFE00DBF44F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F55F21D31F3C4040005A577D /* CustomUI */,
+				F56F1FB91F3BFD3E009CD3B8 /* FileManager */,
+				F56F1FB11F3BF420009CD3B8 /* Manager */,
+				F5946A2E1F3D9559004EF81E /* RuntimeAdjustFont */,
+				F52395FC1F39BBA700DBF44F /* WJDToolKit */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F52395FC1F39BBA700DBF44F /* WJDToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				F52395FE1F39BBA700DBF44F /* JDHeader.h */,
+				F52395FF1F39BBA700DBF44F /* JDUtils.h */,
+				F52396001F39BBA700DBF44F /* JDUtils.m */,
+				F52396011F39BBA700DBF44F /* UIView+JDView.h */,
+				F52396021F39BBA700DBF44F /* UIView+JDView.m */,
+				F52395FD1F39BBA700DBF44F /* define.h */,
+			);
+			path = WJDToolKit;
+			sourceTree = "<group>";
+		};
+		F52DE70B1F4187F900380139 /* Photolist */ = {
+			isa = PBXGroup;
+			children = (
+				F54997601F419AE1003AFAAC /* Cell */,
+				F549975D1F4199FD003AFAAC /* PhotoListViewController.h */,
+				F549975E1F4199FD003AFAAC /* PhotoListViewController.m */,
+			);
+			path = Photolist;
+			sourceTree = "<group>";
+		};
+		F54997601F419AE1003AFAAC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F54997611F419AFC003AFAAC /* PhotoCollectionViewCell.h */,
+				F54997621F419AFC003AFAAC /* PhotoCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F55F21CF1F3C3308005A577D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F55F21D01F3C3320005A577D /* PhotoTableViewCell.h */,
+				F55F21D11F3C3320005A577D /* PhotoTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F55F21D31F3C4040005A577D /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				F55F21D41F3C404F005A577D /* JDActionSheetView.h */,
+				F55F21D51F3C4050005A577D /* JDActionSheetView.m */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		F566DE401F3ABB8400DBEC9A /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F5D7EC7E1F3AD09400D11EB2 /* CalculateMethod.h */,
+				F5D7EC7F1F3AD09400D11EB2 /* CalculateMethod.m */,
+				F566DE411F3ABBAB00DBEC9A /* CalculatorViewController.h */,
+				F566DE421F3ABBAB00DBEC9A /* CalculatorViewController.m */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F56F1FB11F3BF420009CD3B8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F51671441F42E200008F2A72 /* ImageManager */,
+				F516E8B51F3D618E00725CDA /* ShareManager */,
+				F56F1FB61F3BF66B009CD3B8 /* JDAlertViewManager.h */,
+				F56F1FB71F3BF66B009CD3B8 /* JDAlertViewManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F56F1FB91F3BFD3E009CD3B8 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				F56F1FBA1F3BFD53009CD3B8 /* JDFileManager.h */,
+				F56F1FBB1F3BFD53009CD3B8 /* JDFileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		F56F1FBD1F3BFD7F009CD3B8 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				F56F1FBE1F3BFD93009CD3B8 /* JDUserModel.h */,
+				F56F1FBF1F3BFD93009CD3B8 /* JDUserModel.m */,
+				F5D29E4F1F4131990037FFCF /* PhotoLibraryModel.h */,
+				F5D29E501F4131990037FFCF /* PhotoLibraryModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		F585B1141F46844500FA4173 /* VideoModel */ = {
+			isa = PBXGroup;
+			children = (
+				F585B1151F46846900FA4173 /* VideoModel.h */,
+				F585B1161F46846900FA4173 /* VideoModel.m */,
+			);
+			path = VideoModel;
+			sourceTree = "<group>";
+		};
+		F58B7F401F443C3300742E4C /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				F58B7F411F443C6100742E4C /* RecommendListTableViewController.h */,
+				F58B7F421F443C6100742E4C /* RecommendListTableViewController.m */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		F5946A2E1F3D9559004EF81E /* RuntimeAdjustFont */ = {
+			isa = PBXGroup;
+			children = (
+				F5946A2F1F3D9559004EF81E /* UIFont+JDRuntimeFont.h */,
+				F5946A301F3D9559004EF81E /* UIFont+JDRuntimeFont.m */,
+			);
+			path = RuntimeAdjustFont;
+			sourceTree = "<group>";
+		};
+		F59D38ED1F39A64200EA8CD2 = {
+			isa = PBXGroup;
+			children = (
+				987AAD031D1918F580302147 /* Frameworks */,
+				B91EC73BD9C090DD576FD1B5 /* Pods */,
+				F59D38F71F39A64200EA8CD2 /* Products */,
+				F59D38F81F39A64200EA8CD2 /* Secret */,
+			);
+			sourceTree = "<group>";
+		};
+		F59D38F71F39A64200EA8CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59D38F61F39A64200EA8CD2 /* Secret.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59D38F81F39A64200EA8CD2 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				7546E84321A287E200BADD9C /* Manager */,
+				F51967FB1F43F05400E02704 /* ThirdLibrary */,
+				F52395E71F39AC3B00DBF44F /* Appdelegate */,
+				F52395E51F39AC0F00DBF44F /* BaseClass */,
+				F56F1FBD1F3BFD7F009CD3B8 /* BaseModel */,
+				F52395EE1F39AC9A00DBF44F /* Modules */,
+				F59D38F91F39A64200EA8CD2 /* Supporting Files */,
+				F52395F21F39ACFE00DBF44F /* Tools */,
+				F59D39051F39A64200EA8CD2 /* Assets.xcassets */,
+				F59D390A1F39A64200EA8CD2 /* Info.plist */,
+				F59D39071F39A64200EA8CD2 /* LaunchScreen.storyboard */,
+				F59D39021F39A64200EA8CD2 /* Main.storyboard */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
+		F59D38F91F39A64200EA8CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59D38FA1F39A64200EA8CD2 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D0AA3F1F7A399400458641 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F5D0AA401F7A39B500458641 /* AboutViewController.h */,
+				F5D0AA411F7A39B500458641 /* AboutViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		F5D2D7B81F3C5893009303D0 /* PassWordTool */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2D7B91F3C58A6009303D0 /* JDKeyChainWapper.h */,
+				F5D2D7BA1F3C58A6009303D0 /* JDKeyChainWapper.m */,
+			);
+			path = PassWordTool;
+			sourceTree = "<group>";
+		};
+		F5F0E3631F46B26E000F2150 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0E3641F46B280000F2150 /* VideoCollectionViewCell.h */,
+				F5F0E3651F46B280000F2150 /* VideoCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F5F0E3671F46C00F000F2150 /* AVPlay */ = {
+			isa = PBXGroup;
+			children = (
+				F5D080A91F4BE31600915390 /* MoviePlayerViewController.h */,
+				F5D080A81F4BE31500915390 /* MoviePlayerViewController.m */,
+			);
+			path = AVPlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59D38F51F39A64200EA8CD2 /* Secret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59D390D1F39A64200EA8CD2 /* Build configuration list for PBXNativeTarget "Secret" */;
+			buildPhases = (
+				34E81BF6E0CFB55D2A88850F /* [CP] Check Pods Manifest.lock */,
+				F59D38F21F39A64200EA8CD2 /* Sources */,
+				F59D38F31F39A64200EA8CD2 /* Frameworks */,
+				F59D38F41F39A64200EA8CD2 /* Resources */,
+				015DF6A6DCDE196AEF509370 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Secret;
+			productName = "私人保险柜";
+			productReference = F59D38F61F39A64200EA8CD2 /* Secret.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59D38EE1F39A64200EA8CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wangjundong;
+				TargetAttributes = {
+					F59D38F51F39A64200EA8CD2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 75WWG8XJE9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F59D38F11F39A64200EA8CD2 /* Build configuration list for PBXProject "Secret" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = F59D38ED1F39A64200EA8CD2;
+			productRefGroup = F59D38F71F39A64200EA8CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59D38F51F39A64200EA8CD2 /* Secret */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59D38F41F39A64200EA8CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7546E83921A2567500BADD9C /* XMPayCodeView.xib in Resources */,
+				F59D39091F39A64200EA8CD2 /* LaunchScreen.storyboard in Resources */,
+				F59D39061F39A64200EA8CD2 /* Assets.xcassets in Resources */,
+				F59D39041F39A64200EA8CD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015DF6A6DCDE196AEF509370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Secret/Pods-Secret-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+				"${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YBImageBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Secret/Pods-Secret-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E81BF6E0CFB55D2A88850F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Secret-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59D38F21F39A64200EA8CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D080AC1F4BF69700915390 /* UIFont+JDRuntimeFont.m in Sources */,
+				7546E83A21A2567500BADD9C /* XMPayCodeView.m in Sources */,
+				F5AF28951F44172A00B4F517 /* JDUtils.m in Sources */,
+				F5AF28961F44172A00B4F517 /* UIView+JDView.m in Sources */,
+				F516E8B81F3D61AC00725CDA /* JDUMShareManager.m in Sources */,
+				F5CB03E21F3D492200F01A78 /* JDKeyChainWapper.m in Sources */,
+				F58B7F431F443C6100742E4C /* RecommendListTableViewController.m in Sources */,
+				F5D29E511F4131990037FFCF /* PhotoLibraryModel.m in Sources */,
+				F55F21D71F3C40CA005A577D /* JDActionSheetView.m in Sources */,
+				F5D080AA1F4BE31600915390 /* MoviePlayerViewController.m in Sources */,
+				F5F0E3661F46B280000F2150 /* VideoCollectionViewCell.m in Sources */,
+				F52395F81F39ADA800DBF44F /* VideoFilesListViewController.m in Sources */,
+				F52395EA1F39AC5F00DBF44F /* JDBaseViewController.m in Sources */,
+				F51671471F42E219008F2A72 /* JDImageManager.m in Sources */,
+				7546E83B21A2567500BADD9C /* XMTextField.m in Sources */,
+				F5D7EC801F3AD09400D11EB2 /* CalculateMethod.m in Sources */,
+				F52395ED1F39AC8100DBF44F /* JDNavigationViewController.m in Sources */,
+				F59D38FE1F39A64200EA8CD2 /* AppDelegate.m in Sources */,
+				F59D38FB1F39A64200EA8CD2 /* main.m in Sources */,
+				F56F1FB81F3BF66B009CD3B8 /* JDAlertViewManager.m in Sources */,
+				7546E83F21A256B400BADD9C /* JDPasswordViewController.m in Sources */,
+				7546E84621A287F500BADD9C /* JDPasswordManager.m in Sources */,
+				F54997631F419AFC003AFAAC /* PhotoCollectionViewCell.m in Sources */,
+				F52395F51F39AD9300DBF44F /* PhotoFilesListViewController.m in Sources */,
+				F52395FB1F39ADB700DBF44F /* SettingViewController.m in Sources */,
+				F55F21D21F3C3320005A577D /* PhotoTableViewCell.m in Sources */,
+				7546E84D21A2A90300BADD9C /* JDSettingManager.m in Sources */,
+				F516E8BC1F3D807F00725CDA /* ChangePwdViewController.m in Sources */,
+				F5D0AA421F7A39B500458641 /* AboutViewController.m in Sources */,
+				F549975F1F4199FD003AFAAC /* PhotoListViewController.m in Sources */,
+				F566DE431F3ABBAB00DBEC9A /* CalculatorViewController.m in Sources */,
+				F585B1171F46846900FA4173 /* VideoModel.m in Sources */,
+				F56F1FBC1F3BFD53009CD3B8 /* JDFileManager.m in Sources */,
+				F56F1FC01F3BFD93009CD3B8 /* JDUserModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F59D39021F39A64200EA8CD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59D39031F39A64200EA8CD2 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		F59D39071F39A64200EA8CD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59D39081F39A64200EA8CD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F59D390B1F39A64200EA8CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F59D390C1F39A64200EA8CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59D390E1F39A64200EA8CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767455E17AC4CD6F185791FE /* Pods-Secret.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				DEVELOPMENT_TEAM = 75WWG8XJE9;
+				INFOPLIST_FILE = Secret/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuying.SecretPhoto2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F59D390F1F39A64200EA8CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96255B8F175F6544CE58DF7C /* Pods-Secret.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				DEVELOPMENT_TEAM = 75WWG8XJE9;
+				INFOPLIST_FILE = Secret/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuying.SecretPhoto2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59D38F11F39A64200EA8CD2 /* Build configuration list for PBXProject "Secret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59D390B1F39A64200EA8CD2 /* Debug */,
+				F59D390C1F39A64200EA8CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59D390D1F39A64200EA8CD2 /* Build configuration list for PBXNativeTarget "Secret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59D390E1F39A64200EA8CD2 /* Debug */,
+				F59D390F1F39A64200EA8CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59D38EE1F39A64200EA8CD2 /* Project object */;
+}
